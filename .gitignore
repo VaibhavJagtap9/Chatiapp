@@ -1,0 +1,12 @@
+# run inside backend folder (PowerShell)
+@'
+node_modules
+dist
+build
+.vscode
+.env
+npm-debug.log
+yarn-error.log
+.DS_Store
+*.log
+'@ > .gitignore
